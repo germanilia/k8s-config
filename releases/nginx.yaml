@@ -20,7 +20,7 @@ spec:
     image:
       registry: docker.io
       repository: bitnami/nginx
-      tag: 1.16-debian-9
+      tag: latest
     service:
       type: LoadBalancer
       port: 80
