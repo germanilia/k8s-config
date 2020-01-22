@@ -42,6 +42,6 @@ spec:
         port: http
       initialDelaySeconds: 5
       timeoutSeconds: 3
-      periodSeconds: 5
+      periodSeconds: 6
     metrics:
       enabled: false
