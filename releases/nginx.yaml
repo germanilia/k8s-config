@@ -1,4 +1,3 @@
----
 apiVersion: flux.weave.works/v1beta1
 kind: HelmRelease
 metadata:
@@ -21,7 +20,7 @@ spec:
     image:
       registry: docker.io
       repository: bitnami/nginx
-      tag: 1.16.0-debian-9-r46
+      tag: 1.16.1-debian-9-r144
     service:
       type: LoadBalancer
       port: 80
